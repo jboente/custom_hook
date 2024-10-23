@@ -2,9 +2,9 @@ import React from 'react'
 import UseFetch from './UseFetch'
 import './FetchData.css'
 
-const FetchData = () => {
+const FetchYogaData = () => {
 
-  const [data]=UseFetch('https://api.npoint.io/9045c260b1565daa9e15');
+  const [data]=UseFetch('https://api.npoint.io/4459a9a10e43812e1152');
   console.log(data);
 
   return (
@@ -26,4 +26,4 @@ const FetchData = () => {
   )
 }
 
-export default FetchData
+export default FetchYogaData
